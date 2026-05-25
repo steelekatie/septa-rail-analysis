@@ -1,6 +1,6 @@
 # SEPTA Regional Rail Analysis
 
-Analysis of SEPTA Regional Rail on-time performance (OTP) using historical data from the [HuggingFace dataset](https://huggingface.co/datasets/fulldecent/septa-regionalrail-otp) and historical GTFS releases from [SEPTA's GitHub](https://github.com/septadev/GTFS).
+Analysis of SEPTA Regional Rail on-time performance (OTP) using historical data from [fulldecent's HuggingFace dataset](https://huggingface.co/datasets/fulldecent/septa-regionalrail-otp) and historical GTFS releases from [SEPTA's GitHub](https://github.com/septadev/GTFS).
 
 ## Scripts
 
