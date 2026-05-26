@@ -8,6 +8,7 @@ Analysis of SEPTA Regional Rail on-time performance (OTP) using historical data 
 |------|-------------|
 | `0_otp_load_and_clean.py` | Load raw OTP data from HuggingFace (or local parquet), clean, and save `df_clean.parquet` |
 | `1_gtfs_merge.py` | Fetch historical GTFS train-to-line linkages and merge with OTP data by date; saves `df_gtfs_linked.parquet` |
+| `2_eda.ipynb` | Exploratory analysis of merged dataset: lateness distribution, OTP over time, train-level and line-level breakdowns |
 
 ## Data
 
