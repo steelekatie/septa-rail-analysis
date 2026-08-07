@@ -1,0 +1,15 @@
+data/
+*.parquet
+*.csv
+# static reference input, not a reproducible pipeline output -- needed to run
+# 06_weather_prep.ipynb, so it's tracked despite the blanket *.parquet rule above
+!weather/final_weather_ks.parquet
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.venv/
+.DS_Store
+.claude/
+~$*
+archive/
