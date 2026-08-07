@@ -62,7 +62,7 @@ the original's stale cache in exactly the one date the fix's own comment predict
 
 ## Architecture: the notebook pipeline
 
-`scripts/` is numbered the same way as the original project (required run order, not writing order).
+`notebooks/` is numbered the same way as the original project (required run order, not writing order).
 `01`/`02`/`02b`/`03`/`04`/`05` are real, executable logic ported in from the original project (see Data
 strategy above). `04b` is this project's own addition, not present in the original (departure-safe-specific
 leak-fixing, split out from `04` 2026-07-28).
