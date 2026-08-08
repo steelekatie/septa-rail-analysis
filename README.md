@@ -82,5 +82,5 @@ Run in numbered order — each stage reads outputs written by earlier stages.
 
 ## Report
 
-The full write-up (methodology, results, and discussion) is assembled separately and isn't included in
-this repository. `report/figures/` holds the figures the pipeline generates for it.
+The full write-up (methodology, results, and discussion) is at `report/report.pdf`. `report/figures/`
+holds the figures the pipeline generates for it.
